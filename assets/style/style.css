@@ -72,8 +72,10 @@
     color:var( --veryLight);
     font-family:'Montserrat', sans-serif;
     width: 85%;
-    height: 11%;
-    border-radius: 9px
+    height: 10%;
+    border-radius: 9px;
+    font-size: 12px;
+    letter-spacing:2px;
   }
 
 
