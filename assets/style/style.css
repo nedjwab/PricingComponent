@@ -46,6 +46,8 @@
     text-align:center;
     margin-right: 2px;
     width: 29%;
+    background-color:#696fdd ;
+    z-index: 1;
   }
   .card ul {
     list-style: none;
