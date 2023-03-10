@@ -20,11 +20,11 @@
   }
   .bottom-image {
     position: absolute;
-    top:70%;
+    top:58%;
     bottom:0;
   }
   .pricing-container {
-    margin: 5% 45%;
+    margin: 5% 45% 3% 45%;
     width: 50%;
   }
   .toggle {
@@ -48,6 +48,7 @@
     width: 29%;
     background-color:#696fdd ;
     z-index: 1;
+    height: 20%;
   }
   .card ul {
     list-style: none;
