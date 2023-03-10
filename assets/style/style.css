@@ -1,3 +1,8 @@
-h1 {
-    color:blue
-}
+:root {
+    --VeryLightGrayishBlue: hsl(240, 78%, 98%);
+    --textcolor: #344563;
+    --titlecolor: #172b4d;
+    --color: #7f8cff;
+    --iconscolor: #505f79;
+    --bgcolor: #fff;
+  }
