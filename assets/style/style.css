@@ -226,8 +226,18 @@ input[type="checkbox"].toggle:checked + label::after {
   transform: translateX(-116%);
 }
 
-@media (max-width: 481px) {
+@media screen and (max-device-width: 640px) {
   body {
-    color: blue;
+    width: 50%;
+    overflow: hidden;
+  }
+
+  .top-image {
+    left: 72.5%;
+    width: 58%;
+  }
+
+  .bottom-image {
+    display: none;
   }
 }
