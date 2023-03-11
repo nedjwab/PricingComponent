@@ -15,43 +15,51 @@
     background-color: var(--veryLight);
     overflow: hidden;
   }
+
   .top-image {
     position:absolute;
     left: 79.5%;
     height: 75%;
     top:0;
   }
+
   .bottom-image {
     position: absolute;
     top:58%;
     bottom:0;
   }
+
   .pricing-container {
     margin: 4% 45% 3% 45%;
     width: 50%;
   }
+
   .toggle {
     display: flex;
     flex-direction: row;
   }
+
   .pricing-container h1 {
     color:var(--grayshBlue);
     font-size: 28px;
     margin-left: 18px;
     margin-bottom: 34px;
   }
+
   .pricing-container p {
     color: var(--Light);
     margin-top: 2px 6px 0 4px;
     font-size: 13px;
   }
+
   .cards-container {
     display: flex;
     flex-direction: row;
     width:64%;
     margin: 90px 20%;
   }
-  .card {
+
+  .card,.second-card {
     padding:2px 15px;
     text-align:center;
     width:40%;
@@ -61,6 +69,7 @@
     border-radius: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
+
   .second-card {
     position: relative;
     padding-top: 30px;
@@ -68,30 +77,52 @@
     height: 410px;
     background:linear-gradient(#a3a8f0  ,	#696fdd);
   }
+
   .white {
-    color:linear-gradient(#a3a8f0  ,	#696fdd);
+    color: white;
   }
-  .card ul {
+
+  .card ul , .second-card ul {
     list-style: none;
   }
-  .card h2 {
+
+  .card h2,.second-card h2 {
     color:var(--darkGrayshb);
     font-size: 16px;
     margin-top:20px;
   }
-  .price-text {
+
+  .second-card h2 {
+    color: white;
+  }
+
+  .price-text,.second-card p {
     font-size:53px;
     margin-top: 3px;
     margin-bottom: 30px;
     color:var(--darkGrayshb);
   }
+  
+  .second-card p {
+    color: white;
+  }
+
+  .second-card hr {
+    color: white;
+    height: 0.3px;
+    margin-bottom: 10px;
+
+  }
+
   .details {
     color:var( --darkGrayshb);
     font-size: 14px;
     padding: 3px;
   }
+
   li {
     margin:1px 0 19px 0; 
+    font-size: 14px;
   }
 
   button {
@@ -112,17 +143,19 @@
     border: solid 1px var(--darkGrayshb);
     color: #696fdd;
   }
+
   .button-two  {
     border: none;
     margin-top: 4px;
   }
+
   .button-two:hover {
     background:linear-gradient(#a3a8f0  ,	#696fdd);
     color: white;
     border: solid 1px white;
   }
 
-  hr {
+  .card hr {
     height: 0.3px;
     margin-bottom: 11px;
     background-color: gray;
