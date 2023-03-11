@@ -91,7 +91,7 @@
     padding: 3px;
   }
   li {
-    margin:2px 0 19px 0; 
+    margin:1px 0 19px 0; 
   }
 
   button {
@@ -106,10 +106,20 @@
     letter-spacing:2px;
     cursor: pointer;
   }
-  button:hover {
+
+  button:hover,.button-two {
     background: white;
     border: solid 1px var(--darkGrayshb);
     color: #696fdd;
+  }
+  .button-two  {
+    border: none;
+    margin-top: 4px;
+  }
+  .button-two:hover {
+    background:linear-gradient(#a3a8f0  ,	#696fdd);
+    color: white;
+    border: solid 1px white;
   }
 
   /*The toggle switch*/
