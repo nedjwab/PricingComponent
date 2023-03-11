@@ -228,16 +228,48 @@ input[type="checkbox"].toggle:checked + label::after {
 
 @media screen and (max-device-width: 640px) {
   body {
-    width: 50%;
-    overflow: hidden;
+    overflow: scroll;
+    margin: 0;
   }
 
   .top-image {
-    left: 72.5%;
-    width: 58%;
+    left: 40%;
+   
   }
 
   .bottom-image {
     display: none;
   }
+
+  .cards-container  {
+    margin: 90px 10%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    width: 90%;
+  }
+
+  .pricing-container {
+    margin: 4% 15% 3% 15%;
+    width: 50%;
+  }
+
+  .card,
+.second-card {
+  padding: 2px 15px;
+  text-align: center;
+  width: 81%;
+  height: 385px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.second-card {
+  position: static;
+  padding-top: 30px;
+  height: 385px;
+  background: linear-gradient(#a3a8f0, #696fdd);
+}
+
 }
