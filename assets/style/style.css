@@ -252,7 +252,7 @@ input[type="checkbox"].toggle:checked + label::after {
   }
 
   .pricing-container {
-    margin: 18% 0 2% 20%;
+    margin: 18% 0 2% 17%;
     width: 50%;
   }
 
