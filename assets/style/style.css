@@ -252,7 +252,7 @@ input[type="checkbox"].toggle:checked + label::after {
   }
 
   .pricing-container {
-    margin: 18% 0 2% 17%;
+    margin: 15% 0 2% 17%;
     width: 50%;
   }
 
@@ -274,4 +274,10 @@ input[type="checkbox"].toggle:checked + label::after {
   background: linear-gradient(#a3a8f0, #696fdd);
 }
 
+.pricing-container h1 {
+  color: var(--grayshBlue);
+  font-size: 28px;
+  margin-left: 16px;
+  margin-bottom: 34px;
+}
 }
