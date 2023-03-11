@@ -97,6 +97,10 @@
     letter-spacing:2px;
   }
 
+  .toggle p {
+    margin:5px 5px;
+  }
+
   input[type="checkbox"].toggle {
     opacity: 0;
     position: absolute;
@@ -113,9 +117,10 @@
   
   input[type="checkbox"].toggle + label::before {
     content: "";
-    width: 47px;
-    height: 32px;
-    background-color: hsl(0, 80%, 90%);
+    width: 50px;
+    opacity:0.4;
+    height: 27px;
+    background:linear-gradient(#a3a8f0  ,	#696fdd);
     border-radius: 1em;
     margin-right: .25em;
     transition: background-color 200ms ease-in-out;
@@ -130,11 +135,11 @@
     font-size: .5em;
     height: 15em;
     left: .2em;
-    width: 1.8em;
-    height: 1.8em;
-    background-color: hsl(0, 80%, 60%);
+    width: 19px;
+    height: 19px;
+    background-color:white;
     color: white;
-    border-radius: 1em;
+    border-radius: 2em;
     transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
   }
   
@@ -147,14 +152,18 @@
   }
   
   input[type="checkbox"].toggle:checked + label::after {
-    transform: translateX(180%);
+    transform: translateX(140%);
     background:white;
   }
   
-  input[type="checkbox"].toggle:disabled + label {
-    color: #777;
+
+  input[type="checkbox"].toggle:disabled + label::before {
+    background:linear-gradient(#a3a8f0  ,	#696fdd);
   }
   
+  input[type="checkbox"].toggle:disabled + label::after {
+    background:linear-gradient(#a3a8f0  ,	#696fdd);
+  }
 
 
 @media (max-width: 481px) {
