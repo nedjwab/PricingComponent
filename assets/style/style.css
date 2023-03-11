@@ -64,6 +64,7 @@
     bottom:30px;
     height: 460px;
     background:linear-gradient(#a3a8f0  ,	#696fdd);
+    color:white;
   }
   .card ul {
     list-style: none;
