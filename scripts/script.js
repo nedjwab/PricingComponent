@@ -2,6 +2,8 @@ const button = document.querySelector(".switch");
 const text = document.querySelector(".m1");
 const text2 = document.querySelector(".m2");
 const text3 = document.querySelector(".m3");
+var boxAfter = window.getComputedStyle(button, "::after");
+console.log(boxAfter.backgroundColor);
 
 button.addEventListener('click', () => {
     if (text.innerHTML === "$19.99" && text2.innerHTML === "$24.99" && text3.innerHTML === "$39.99") {
