@@ -40,24 +40,24 @@
   .cards-container {
     display: flex;
     flex-direction: row;
-    width:70%;
-    margin: 0 19%;
+    width:64%;
+    margin: 0 20%;
   }
   .card {
-    padding:19px 9px;
+    padding:5px 9px;
     text-align:center;
-    width:50%;
+    width:40%;
     z-index: 1;
-    height: 300px;
+    height: 405px;
     background-color:white;
-    border-radius: 9px;
+    border-radius: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
   .second-card {
     position: relative;
-    bottom:12px;
+    bottom:30px;
     background-color: #696fdd;
-    height: 430px;
+    height: 460px;
   }
   .card ul {
     list-style: none;
@@ -65,6 +65,7 @@
   .card h2 {
     color:var(--darkGrayshb);
     font-size: 16px;
+    margin-top:40px;
   }
   .price-text {
     font-size:46px;
@@ -76,7 +77,7 @@
     padding: 3px;
   }
   li {
-    margin:10px 0 19px 0; 
+    margin:2px 0 19px 0; 
   }
   button {
     background-color:#696fdd;
