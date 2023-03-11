@@ -234,9 +234,9 @@ input[type="checkbox"].toggle:checked + label::after {
   }
 
   .top-image {
-    left: 70%;
-    width: 50%;
-   
+    left: 57%;
+    width: 58%;
+    height: 50%;
   }
 
   .bottom-image {
@@ -276,7 +276,7 @@ input[type="checkbox"].toggle:checked + label::after {
 
 .pricing-container h1 {
   color: var(--grayshBlue);
-  font-size: 28px;
+  font-size: 24px;
   margin-left: 16px;
   margin-bottom: 34px;
 }
