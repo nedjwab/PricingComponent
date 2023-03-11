@@ -153,18 +153,8 @@
   
   input[type="checkbox"].toggle:checked + label::after {
     transform: translateX(140%);
-    background:white;
+    
   }
-  
-
-  input[type="checkbox"].toggle:disabled + label::before {
-    background:linear-gradient(#a3a8f0  ,	#696fdd);
-  }
-  
-  input[type="checkbox"].toggle:disabled + label::after {
-    background:linear-gradient(#a3a8f0  ,	#696fdd);
-  }
-
 
 @media (max-width: 481px) {
   body {
