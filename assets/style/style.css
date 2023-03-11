@@ -121,8 +121,8 @@
     opacity:0.4;
     height: 27px;
     background:linear-gradient(#a3a8f0  ,	#696fdd);
-    border-radius: 1em;
-    margin-right: .25em;
+    border-radius:16px;
+    margin-right: 4px;
     transition: background-color 200ms ease-in-out;
   }
   
@@ -132,9 +132,9 @@
     align-items: center;
     position: absolute;
     content: "\2715";
-    font-size: .5em;
-    height: 15em;
-    left: .2em;
+    font-size: 8px;
+    height: 240px;
+    left: 3.2px;
     width: 19px;
     height: 19px;
     background-color:white;
