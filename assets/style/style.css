@@ -243,7 +243,7 @@ input[type="checkbox"].toggle:checked + label::after {
     display: none;
   }
 
-  .cards-container  {
+  .cards-container {
     margin: 40px 10%;
     flex-direction: column;
     justify-content: space-between;
@@ -257,27 +257,27 @@ input[type="checkbox"].toggle:checked + label::after {
   }
 
   .card,
-.second-card {
-  padding: 2px 15px;
-  text-align: center;
-  width: 81%;
-  height: 385px;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
-}
+  .second-card {
+    padding: 2px 15px;
+    text-align: center;
+    width: 81%;
+    height: 385px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  }
 
-.second-card {
-  position: static;
-  padding-top: 30px;
-  height: 385px;
-  background: linear-gradient(#a3a8f0, #696fdd);
-}
+  .second-card {
+    position: static;
+    padding-top: 30px;
+    height: 385px;
+    background: linear-gradient(#a3a8f0, #696fdd);
+  }
 
-.pricing-container h1 {
-  color: var(--grayshBlue);
-  font-size: 24px;
-  margin-left: 20px;
-  margin-bottom: 34px;
-}
+  .pricing-container h1 {
+    color: var(--grayshBlue);
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 34px;
+  }
 }
