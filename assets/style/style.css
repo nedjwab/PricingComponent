@@ -97,49 +97,65 @@
     letter-spacing:2px;
   }
 
-  input[type=checkbox]{
-    height: 0;
-    width: 0;
-    visibility: hidden;
-  }
-  
-  label {
-    cursor: pointer;
-    text-indent: -9999px;
-    width: 30%;
-    height: 100px;
-    background: grey;
-    display: block;
-    border-radius: 100px;
-    position: relative;
-  }
-  
-  label:after {
-    content: '';
+  input[type="checkbox"].toggle {
+    opacity: 0;
     position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 90px;
-    height: 90px;
-    background: #fff;
-    border-radius: 90px;
-    transition: 0.3s;
+    left: -9000px;
+    top: -9000px;
   }
   
-  input:checked + label {
-    background: #bada55;
+  input[type="checkbox"].toggle + label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
   }
   
-  input:checked + label:after  {
-    left: calc(100% - 5px);
-    transform: translateX(-100%);
+  input[type="checkbox"].toggle + label::before {
+    content: "";
+    width: 47px;
+    height: 32px;
+    background-color: hsl(0, 80%, 90%);
+    border-radius: 1em;
+    margin-right: .25em;
+    transition: background-color 200ms ease-in-out;
   }
   
-  label:active:after {
-    width: 130px;
+  input[type="checkbox"].toggle + label::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    content: "\2715";
+    font-size: .5em;
+    height: 15em;
+    left: .2em;
+    width: 1.8em;
+    height: 1.8em;
+    background-color: hsl(0, 80%, 60%);
+    color: white;
+    border-radius: 1em;
+    transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
   }
   
+  input[type="checkbox"].toggle:focus + label::before {
+    outline:none;
+  }
   
+  input[type="checkbox"].toggle:checked + label::before {
+    background-color: hsl(100, 70%, 90%);
+  }
+  
+  input[type="checkbox"].toggle:checked + label::after {
+    transform: translateX(180%);
+    background:white;
+  }
+  
+  input[type="checkbox"].toggle:disabled + label {
+    color: #777;
+  }
+  
+
 
 @media (max-width: 481px) {
   body {

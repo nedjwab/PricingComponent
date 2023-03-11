@@ -1,4 +1,4 @@
-const button = document.querySelector("#switch");
+const button = document.querySelector("#check1");
 const text = document.querySelector(".m1");
 const text2 = document.querySelector(".m2");
 const text3 = document.querySelector(".m3");
