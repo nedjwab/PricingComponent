@@ -37,6 +37,11 @@
     color:var(--grayshBlue);
     font-size: 28px;
   }
+  .pricing-container p {
+    color: var(--Light);
+    margin-top: 2px 4px 0 4px;
+    font-size: 14px;
+  }
   .cards-container {
     display: flex;
     flex-direction: row;
