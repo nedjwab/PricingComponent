@@ -42,8 +42,8 @@
   }
   .pricing-container p {
     color: var(--Light);
-    margin-top: 2px 4px 0 4px;
-    font-size: 14px;
+    margin-top: 2px 6px 0 4px;
+    font-size: 13px;
   }
   .cards-container {
     display: flex;
@@ -68,8 +68,8 @@
     height: 410px;
     background:linear-gradient(#a3a8f0  ,	#696fdd);
   }
-  .m2 {
-    color:white;
+  .white {
+    color:linear-gradient(#a3a8f0  ,	#696fdd);
   }
   .card ul {
     list-style: none;
@@ -122,6 +122,13 @@
     border: solid 1px white;
   }
 
+  hr {
+    height: 0.3px;
+    margin-bottom: 11px;
+    background-color: gray;
+    border: none;
+  }
+
   /*The toggle switch*/
   .toggle p {
     margin:5px 5px;
@@ -138,9 +145,10 @@
     position: relative;
     display: flex;
     align-items: center;
+    margin: 0 12px;
     cursor: pointer;
   }
-  
+
   input[type="checkbox"].toggle + label::before {
     content: "";
     width: 50px;
@@ -160,7 +168,7 @@
     content: "\2715";
     font-size: 8px;
     height: 240px;
-    left: 3.2px;
+    right: 10px;
     width: 19px;
     height: 19px;
     background-color:white;
@@ -175,11 +183,11 @@
   
   input[type="checkbox"].toggle:checked + label::before {
     background-color: hsl(100, 70%, 90%);
+    opacity: 0.9;
   }
   
   input[type="checkbox"].toggle:checked + label::after {
-    transform: translateX(140%);
-    
+    transform: translateX(-116%);
   }
 
 @media (max-width: 481px) {
